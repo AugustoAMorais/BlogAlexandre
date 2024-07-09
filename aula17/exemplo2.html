@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>exemplo de expressão com Angular e elementos HTML</h2>
+
+    <div ng-app="" ng-init="color= 'lightblue'">
+        <input style="background-color:{{cor}}" ng-model="cor" value="{{cor}}">
+        <p>A cor digitada é: {{cor}}</p>
+        <span ng-init="quantidade; valor">
+            <p>expressão numérica: <span style="background-color: {{cor}}">{{quantidade * valor}}</span></p>
+        </span>
+        <span ng-init="nome = 'fulano'; sobrenome = ' De Tal'"></span>
+        <p>Nome completo {{nome + "" + sobrenome}}</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</body>
+</html>

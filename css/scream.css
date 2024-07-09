@@ -1,0 +1,34 @@
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    background-color: rgb(238, 108, 108);
+    left: auto;
+    height: 47vh;
+    width: 54vh;
+    margin-left: 30%;
+}
+
+.text h1{
+    color: gold;
+    font-size: 40px;
+    text-align: center; 
+}
+
+   .text p{
+    font-size: 20px;
+    margin-left: 6px;
+}
+
+.painting{
+    margin-left: 20px;
+    margin-top: -205px;
+}
+
+.painting img{
+    width: 200px;
+    height: 220px;
+}
+
